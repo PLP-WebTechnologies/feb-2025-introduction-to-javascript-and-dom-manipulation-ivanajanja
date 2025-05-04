@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript and DOM Manipulation</title>
+    <style>
+        /* Basic CSS for styling */
+        .hidden {
+            display: none;
+        }
+
+        #message {
+            color: blue;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>DOM Manipulation Example</h1>
+    </header>
+
+    <main>
+        <section>
+            <p id="message">This is some text content.</p>
+            <button id="changeTextButton">Change Text</button>
+        </section>
+
+        <section>
+            <button id="changeStyleButton">Change Style</button>
+        </section>
+
+        <section>
+            <button id="toggleElementButton">Toggle Element</button>
+            <div id="toggleContent" class="hidden">
+                <p>This content will be toggled on button click.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Footer content here.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
